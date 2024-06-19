@@ -2,6 +2,13 @@
 
 This repo contains a simple chat application built using C programming langugae, utilizing TCP/IP sockets for communication between multiple clients and a server. Clients can connect to the server, send messages, and receive messages from other connected clients via the server.
 
+## Tech Stack
+
+- **Programming Language:** C
+- **Networking:** TCP/IP Sockets
+- **Concurrency:** POSIX Threads (pthread library)
+- **Operating System:** Linux (for development and testing)
+
 ## Commands
 
 #### Running the Server
@@ -21,10 +28,12 @@ Replace <port_number> with your desired port number.
 ### Running the Client
 
 1. Compile the Client program:
+
    ```bash
    ./client <server_ip> <server_port>
 
    ```
+
 2. Run multiple Clients
    ```bash
    ./client 127.0.0.1 12345
